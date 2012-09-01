@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="transcloud.app.neonblogger"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".NeonBloggerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="NeonDashbordActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonCreateBlogsActivity"
+            android:label="@string/create" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonLogoutActivity"
+            android:label="@string/logout" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonManageBlogsActivity"
+            android:label="@string/manage" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonViewBlogsActivity"
+            android:label="@string/view" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonUpdateBlogsActivity"
+            android:label="@string/update" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonMediaContentActivity"
+            android:label="@string/media" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonHomePageActivity"
+            android:label="@string/home" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonBackUpActivity"
+            android:label="@string/backup" >
+        </activity>
+        <activity
+            android:name=".tabs.NeonDownloadAcitivity"
+            android:label="@string/backup" >
+        </activity>
+        
+        <activity
+            android:name=".tabs.FileChooser"
+            android:label="@string/fileUpload" >
+             
+        </activity>
+    </application>
+
+</manifest>

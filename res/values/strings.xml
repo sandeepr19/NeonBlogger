@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to NeonBlogger!!!</string>
+    <string name="app_name">NeonBlogger</string>
+    <string name="signin">Please type your user name and password to sign in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+	<string name="logout">Logout</string>
+	<string name="home">Home</string>
+	<string name="create">Create Blogs</string>
+	<string name="view">View Blogs</string>
+	<string name="update">Update Blogs</string>
+	<string name="manage">Manage</string>
+	<string name="media">Media</string>
+	<string name="backup">Backup</string>
+	<string name="title">Title</string>
+	<string name="content">Content</string>
+	<string name="tags">Tags</string>
+	<string name="status">Status</string>
+	<string name="createdTime">Created Time</string>
+	<string name="editedTime">Last Updated</string>
+	<string name="upload">Upload Files</string>
+	<string name="download">Download Files</string>
+	<string name="uploadButton">Upload</string>
+	<string name="downloadButton">Download</string>
+	<string name="createButton">Create</string>
+	<string name="updateButton">Update</string>
+	<string name="resetButton">Reset</string>
+	<string name="fileUpload">File Upload</string>
+	<string name="selectFiles">Select Files</string>
+	<string name="spinner_status_color_prompt">Please select a status</string>
+	
+</resources>
